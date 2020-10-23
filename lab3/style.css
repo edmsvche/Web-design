@@ -1,0 +1,25 @@
+ul.a{
+    list-style-type: square;
+}
+
+ul.b{
+    list-style-type: disc;
+}
+ol.c{
+    list-style-type: lower-alpha;
+}
+ul.d{
+    list-style-type: circle;
+}
+ol.e{
+    list-style-type: lower-roman;
+}
+ol.f{
+    list-style-type: upper-alpha;
+}
+ol.g{
+    list-style-type: upper-roman;
+}
+ul.h{
+    list-style-image:url(https://www.w3schools.com/images/compatible_chrome.gif)
+}

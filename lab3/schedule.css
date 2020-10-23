@@ -1,0 +1,46 @@
+table{
+	border: 1px solid black;
+	border-collapse: collapse;
+	width:100%;
+}
+
+tr{
+	border: 1px solid black;
+}
+
+td{
+	border: 1px solid black;
+	font-size: 30px;
+	padding: 20px;
+	text-align: center;
+}
+
+.schedule .top{
+	background: #5f937d;
+	font-weight: bold;
+}
+
+.days{
+	font-weight: bold;
+	text-align: center;
+	background:#807d90;
+}
+
+.number{
+	font-weight: bold;
+	text-align: center;
+	font-size: 60px;
+	background:#f97b89;
+}
+
+.block_weeks {
+	padding: 400px 0;
+	display: block; 
+}
+
+.block_days{
+	padding: 200px 0;
+	display: block; 
+}
+
+
