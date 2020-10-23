@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 5px;
+    background-color: #6A5F55;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.header-div {
+    background-color: #6A5F55;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.header-div a {
+    text-decoration: none;
+    font-family: Chalkboard, sans-serif;
+    font-size: 1em;
+    color: black;
+    background-color: #3c3530;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.header-div a:hover {
+    color: #6A5F55;
+    background-color: black;
+    border: 1px solid #6A5F55;
+}
+
+
+.form-1 {
+    margin: 5px auto;
+    padding: 10px;
+    width: 300px;
+}
+
+.form-2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 500px;
+    padding: 5px;
+}
+
+.form {
+    border-radius: 10px;
+    margin: 5px auto;
+    width: 720px;
+    border: 1px solid #B2BBC0;
+    background-color: white;
+}
+
+.form-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-group {
+    padding: 10px 20px;
+    border-right: 1px solid #bababa;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.form-control label {
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: #bababa;
+}
+
+.form-input {
+    border: 1px solid #c4c4c4;
+    width: 300px;
+    border-radius: 5px;
+    height: 2.75em;
+}
+
+.form-checkboxes {
+    flex-direction: row;
+    padding: 5px 0 5px 5px;
+    font-weight: lighter;
+}
+
+.submit-btn {
+    margin: 10px auto;
+    padding: 15px 130px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #009000;
+}
+
+.form-social {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #868686;
+}
+
+.social-btn {
+    margin: 10px auto;
+    width: 200px;
+    padding: 10px 50px;
+    background-color: #eaeaea;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+}
+
+.social-btn a {
+    text-decoration: none;
+    color: #2269a4;
+    font-size: larger;
+}
+
+.form-info {
+    margin: 1px;
+    font-size: smaller;
+    color: #bababa;
+}
+
+#newPass {
+    width: 260px;
+}

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Lab4" content="Форми">
+    <title>Forms</title>
+    <link rel="stylesheet" href="../assets/styles/forms.css">
+</head>
+
+<header>
+    <div class="header-div">
+        <a href="index.html">Go To Main Page</a>
+    </div>
+</header>
+
+<body>
+<div class="form-1">
+    <form method="post">
+        <label for="firstName">First name: </label>
+        <input id="firstName" type="text" placeholder="Enter first name">
+        <br>
+        <label for="lastName">Last name: </label>
+        <input id="lastName" type="text" placeholder="Enter last name">
+        <br>
+        <label for="mail">Email: </label>
+        <input id="mail" type="email" placeholder="Enter email">
+        <br>
+        <label for="password">Password: </label>
+        <input id="password" type="password" placeholder="Enter password">
+        <br>
+        <label for="date">Born in: </label>
+        <input id="date" type="date">
+        <br>
+        <label for="radio1">en </label>
+        <input name="radio1" id="radio1" type="radio">
+        <label for="radio2">ua </label>
+        <input name="radio1" id="radio2" type="radio">
+        <br>
+        <select>
+            <option selected disabled>Select gender</option>
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+        <br>
+        <input type="submit" value="Send">
+        <input type="file">
+    </form>
+</div>
+
+<hr>
+<hr>
+
+<div class="form-2">
+    <form>
+        <label for="login">Логін:</label>
+        <input id="login" type="text">
+        <br>
+        <label for="password">Пароль:</label>
+        <input id="password" type="password">
+        <br>
+        <label for="repeatPass">Повторіть пароль:</label>
+        <input id="repeatPass" type="password">
+        <br>
+        <label>Стать:</label>
+        <input name="radio2" id="gender1" type="radio" placeholder="Enter first name">
+        <label for="gender1">чоловік</label>
+        <input name="radio2" id="gender2" type="radio" placeholder="Enter first name">
+        <label for="gender2">жінка</label>
+        <br>
+        <label for="city">Вкажіть місто:</label>
+        <select id="city">
+            <option>Житомир</option>
+            <option>Київ</option>
+            <option>Львів</option>
+        </select>
+        <br>
+        <label>Інтереси:</label>
+            <input id="one" name="checkbox" type="checkbox">
+            <label for="one">футбол</label>
+            <input id="two" name="checkbox" type="checkbox">
+            <label for="two">шахи</label>
+            <input id="three" name="checkbox" type="checkbox">
+            <label for="three">малювання</label>
+            <input id="four" name="checkbox" type="checkbox">
+            <label for="four">музика</label>
+        <br>
+        <button type="reset">Очистити</button>
+        <button type="submit">Відправити</button>
+    </form>
+</div>
+
+<hr>
+<hr>
+
+<div class="form">
+    <form>
+        <div class="form-header">
+            <h2 style="font-weight: lighter; margin-left: 5px">Вход</h2>
+        </div>
+        <hr>
+        <div class="form-body">
+            <div class="form-group">
+                <div class="form-control">
+                    <label for="login1">Эл. почта или телефон</label>
+                    <input class="form-input" id="login1" type="email">
+                </div>
+                <div class="form-control">
+                    <label for="password2">Пароль</label>
+                    <input class="form-input" id="password2" type="password">
+                </div>
+                <!--            <label for="emT1">Эл. почта или телефон</label>-->
+                <!--            <br>-->
+                <!--            <input class="form4Blo1" id="emT1" type="email">-->
+                <!--            <br>-->
+                <!--            <label class="form4Blo1" for="pass3_1">Пароль</label>-->
+                <!--            <br>-->
+                <!--            <input class="form4Blo1 sP" id="pass3_1" type="password">-->
+                <!--            <br>-->
+                <div class="form-checkboxes">
+                    <input type="checkbox">
+                    <label>Запомнить меня</label>
+                    <a href="" style="margin-left: 50px">Напомнить пароль</a>
+                </div>
+                <button class="submit-btn form-control">Войти</button>
+                <a class="form-control text-center" href="#">Зарегистрироваться</a>
+            </div>
+            <div class="form-social">
+                <p style="text-wrap: none">Войти как пользователь</p>
+                <button class="social-btn">
+                    <a href="http://facebook.com/">
+                        <img src="https://image.flaticon.com/icons/png/512/59/59439.png" alt="" width="15px">
+                        Facebook
+                    </a>
+                </button>
+                <button class="social-btn">
+                    <a href="http://facebook.com/">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1004px-Google_%22G%22_Logo.svg.png" alt="" width="15px">
+                        Google
+                    </a>
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<hr>
+<hr>
+
+
+<div class="form">
+    <form>
+        <div class="form-header">
+            <h2 style="font-weight: lighter; margin-left: 5px">Вход</h2>
+        </div>
+        <hr>
+        <div class="form-body">
+            <div class="form-group">
+                <div class="form-control">
+                    <label for="lastName1">Фамилия</label>
+                    <input class="form-input" id="lastName1" type="email">
+                </div>
+                <div class="form-control">
+                    <label for="firstName1">Имя</label>
+                    <input class="form-input" id="firstName1" type="email">
+                </div>
+                <div class="form-control">
+                    <label for="email">Эл. почта или телефон</label>
+                    <input class="form-input" id="email" type="email">
+                </div>
+                <div class="form-control">
+                    <label for="newPass">Придумайте пароль</label>
+                    <div style="display: flex; flex-direction: row">
+                        <input class="form-input" id="newPass" type="password">
+                        <img src="https://static.thenounproject.com/png/506282-200.png" alt="" width="30px">
+                    </div>
+                    <p class="form-info">
+                        Пароль должен быть не менее 6 символов, содержать <br>
+                        цифры и латинские буквы, в том числе заглавные, <br>
+                        и не должен совпадать с именем или эл. почтой.
+                    </p>
+                </div>
+
+                <div class="form-control">
+                    <p class="form-info">
+                        Регистрируясь, вы соглашаетесь с
+                        <a href="#"> пользовательским <br> соглашением </a>
+
+                    </p>
+                </div>
+
+                <button class="submit-btn form-control">Зарегистрироваться</button>
+                <a href="#" class="form-control text-center">Я уже Зарегистрирован</a>
+            </div>
+            <div class="form-social">
+                <p style="text-wrap:none">Войти как пользователь</p>
+                <button class="social-btn">
+                    <a href="http://facebook.com/">
+                        <img src="https://image.flaticon.com/icons/png/512/59/59439.png" alt="" width="15px">
+                        Facebook
+                    </a>
+                </button>
+                <button class="social-btn">
+                    <a href="http://facebook.com/">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1004px-Google_%22G%22_Logo.svg.png" alt="" width="15px">
+                        Google
+                    </a>
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>

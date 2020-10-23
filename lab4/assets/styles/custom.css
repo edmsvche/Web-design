@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+
+.custom-links {
+    padding: 10px;
+}
+
+.custom {
+    display: block;
+    padding: 1px 5px;
+    letter-spacing: 1px;
+    margin: 10px 10px;
+    font-size: 20px;
+    font-family: Chalkboard, cursive;
+    transition: 300ms;
+    cursor: pointer;
+    color: #000;
+    scroll-behavior: smooth;
+}
+
+.custom-links {
+    background-color: #393434;
+}
+
+.custom-6:link {
+    width: 10em;
+    color: #ffffff;
+    border-bottom: 1px dotted #1E3A52;
+}
+
+.custom-7:visited {
+    width: 10em;
+    color: #414141;
+    border-bottom: 1px solid #1E3A52;
+}
+
+.custom-8:hover {
+    width: 10em;
+    color: #606060;
+    border-bottom: 1px solid #4D575D;
+    transform: translateX(10px);
+}
+
+.custom-9:active {
+    width: 10em;
+    color: #b3b3b3;
+    border-bottom: 1px solid #a5a5a5;
+}
+
+.custom-10 {
+    width: 10em;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.custom-11:hover {
+    width: 15em;
+    border-bottom: 1px solid #000;
+}
+.custom-12 {
+    width: 15em;
+}
